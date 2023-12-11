@@ -6,7 +6,7 @@ command: >-
 inputs:
   training_data: 
     type: uri_folder 
-    path: Users/keshavagrawal853/Azure-MLOpsChallenge0/experimentation/data/diabetes-dev.csv
+    path: experimentation/data/diabetes-dev.csv
   reg_rate: 0.01
 environment: azureml:AzureML-sklearn-0.24-ubuntu18.04-py37-cpu@latest
 compute: mlops-challenge
